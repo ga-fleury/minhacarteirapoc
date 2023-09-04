@@ -5,10 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [
-    "http://localhost:5137",
-    "https://localhost:5137",
-    "http://localhost",
-    "http://localhost:8080",
+    "https://minhacarteirapoc.netlify.app"
 ]
 
 app.add_middleware(
