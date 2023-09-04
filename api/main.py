@@ -14,7 +14,7 @@ async def root():
         "body": json.dumps({
             "message": "Hello World"
         }),
-        "isBaseEncoded64": false
+        "isBaseEncoded64": "false"
         }
 
 handler = Mangum(app=app)
