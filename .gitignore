@@ -2,3 +2,4 @@
 /.pytest_cache
 /api/__pycache__
 /tests/__pycache__
+/.vscode
